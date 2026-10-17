@@ -1992,6 +1992,52 @@
             }
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "e956da25-dd38-4c18-a692-c40197824dcd",
+            "source": {
+              "x": 1327,
+              "y": 24
+            },
+            "target": {
+              "cell": "5bc91aaf-79bd-4a85-9a46-e601f09f1d16",
+              "port": "b3fb6ae2-9f43-4ec1-b6f8-30c6b2774f72"
+            }
+          },
+          {
             "position": {
               "x": 1197,
               "y": -291.99999999999955
