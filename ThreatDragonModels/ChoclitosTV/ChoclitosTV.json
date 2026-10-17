@@ -86,7 +86,7 @@
                 "1490028a-4d4a-4c16-a272-ddf44d8a71c2",
                 "70602e67-64d6-4c88-9dd3-8bdfb5b1af5a",
                 "f3e3b39d-c4ec-423d-a603-80ef67d3e575",
-                "b261fa30-d4a4-4899-886b-a0f15c05f251"
+                "659e723f-03b1-48c2-afa4-11f9cdec1555"
               ],
               "containedElements": [
                 "d6929402-5f88-40a3-992a-ddbf027207df",
@@ -1831,64 +1831,6 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "ecd599cd-ee38-4aea-9bed-384e04a9b9a3"
-              ]
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "b261fa30-d4a4-4899-886b-a0f15c05f251",
-            "source": {
-              "x": 1012,
-              "y": -177
-            },
-            "target": {
-              "cell": "5cadba80-e0fe-464a-a1e2-eee32c28cf55",
-              "port": "c6975e92-df21-49b8-bcc8-ab93e6ee76a3"
-            },
-            "vertices": [
-              {
-                "x": 1080,
-                "y": -80
-              },
-              {
-                "x": 1100,
-                "y": -50
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
               "trustBoundaryIds": []
             },
             "labels": [
@@ -2448,6 +2390,60 @@
               {
                 "x": 920,
                 "y": -30
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Consulta de Catálogo",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": [
+                "ecd599cd-ee38-4aea-9bed-384e04a9b9a3"
+              ]
+            },
+            "labels": [
+              "Consulta de Catálogo"
+            ],
+            "id": "659e723f-03b1-48c2-afa4-11f9cdec1555",
+            "source": {
+              "x": 1017,
+              "y": -187
+            },
+            "target": {
+              "cell": "5cadba80-e0fe-464a-a1e2-eee32c28cf55",
+              "port": "c6975e92-df21-49b8-bcc8-ab93e6ee76a3"
+            },
+            "vertices": [
+              {
+                "x": 1150,
+                "y": 10
               }
             ]
           },
