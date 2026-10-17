@@ -1845,7 +1845,12 @@
               "cell": "5bc91aaf-79bd-4a85-9a46-e601f09f1d16",
               "port": "b3fb6ae2-9f43-4ec1-b6f8-30c6b2774f72"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 1420,
+                "y": -267
+              }
+            ]
           },
           {
             "shape": "flow",
