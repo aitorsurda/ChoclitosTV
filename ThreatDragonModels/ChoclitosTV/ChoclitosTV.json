@@ -1,0 +1,28 @@
+{
+  "version": "2.6.2",
+  "release_version": "",
+  "released_at": "2026-10-20",
+  "summary": {
+    "title": "ChoclitosTV",
+    "owner": "aitorsurda",
+    "description": "Modelo de amenazas y diagrama de flujo de datos (DFD) para la plataforma de streaming VOD ChoclitosTV (+500.000 suscriptores), estructurada en 4 capas (DMZ, Aplicación, Datos y Administración por VPN).",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "ChoclitosTV DFD",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": []
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
